@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modelo</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <section class="container">
+      <h1>Calculadora</h1>
+      <table class="Calculadora">
+        <tr>
+          <td colspan="4"><input type="text" class="display" /></td>
+        </tr>
+
+        <tr>
+          <td><button class="btn btn-clear">C</button></td>
+          <td><button class="btn btn-num">)</button></td>
+          <td><button class="btn btn-num">(</button></td>
+          <td><button class="btn btn-num">/</button></td>
+        </tr>
+
+        <tr>
+          <td><button class="btn btn-num">7</button></td>
+          <td><button class="btn btn-num">8</button></td>
+          <td><button class="btn btn-num">9</button></td>
+          <td><button class="btn btn-num">*</button></td>
+        </tr>
+
+        <tr>
+          <td><button class="btn btn-num">4</button></td>
+          <td><button class="btn btn-num">5</button></td>
+          <td><button class="btn btn-num">6</button></td>
+          <td><button class="btn btn-num">+</button></td>
+        </tr>
+
+        <tr>
+          <td><button class="btn btn-num">1</button></td>
+          <td><button class="btn btn-num">2</button></td>
+          <td><button class="btn btn-num">3</button></td>
+          <td><button class="btn btn-num">-</button></td>
+        </tr>
+
+        <tr>
+          <td><button class="btn btn-num">.</button></td>
+          <td><button class="btn btn-num">0</button></td>
+          <td><button class="btn btn-del">&laquo;</button></td>
+          <td><button class="btn btn-eq">=</button></td>
+        </tr>
+      </table>
+    </section>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
+
+<!-- <!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Eventos de teclado e mouse</title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+</head>
+<body>
+<ul>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+<li>Item 4</li>
+<li>Item 5</li>
+</ul>
+<form>
+<input type="text" name="inpt" id="inpt" />
+</form>
+<script type="text/javascript">
+//Evento mouseover
+$('ul').on('mouseover', 'li', function () {
+console.log('Conteúdo do item da lista: ' + $(this).text());
+});
+//Evento mouseleave
+$('ul').on('mouseleave', 'li', function () {
+console.log('O mouse não está mais sobre o elemento da lista');
+});
+//Evento keypress
+$('#inpt').keypress(function (event) {
+event.preventDefault();
+console.log('A tecla pressionada foi: ' + event.which);
+});
+</script>
+</body>
+</html> -->
